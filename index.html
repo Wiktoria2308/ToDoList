@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <meta name="description" content="ToDo List">
+        <meta name="keywords" content="ToDo App, To-Do List">
+        <meta name="author" content="Wiktoria Dobrzewinska">
+        <title>ToDo List</title>
+        <link rel="icon" href="" type="image/jpg" sizes="16x16">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Purple+Purse&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/3318035e44.js"></script>
+    </head>
+
+    <body>
+<div>
+  <h1 id="title">Things To Do</h1>
+</div>
+
+<div id="task-container">
+  <div id="input-container">
+    <input type="text" id="add-task" placeholder="What to do?">
+    <i class="fas fa-plus" title="Add new task" id="plus-icon" onclick="addTask()"></i>
+  </div>
+  <ul id="task-list">
+  </ul>
+</div>
+      <script src="index.js"></script>
+    </body>
+    </html>

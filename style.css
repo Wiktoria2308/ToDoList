@@ -1,0 +1,101 @@
+body {
+  padding-bottom: 5em;
+}
+
+html {
+  background-image: url(images/background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+* {
+  box-sizing: border-box;
+}
+#title {
+  font-family: 'Purple Purse', cursive;
+  text-align: center;
+  font-size: 5em;
+  font-weight: 400;
+}
+
+#task-container {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin-bottom: 2em;
+  text-align: center;
+  margin: auto;
+  width: 50em;
+  min-height: 40em;
+  background-color: white;
+  border-radius: 2em;
+  box-shadow: 0 0.1em 1em rgba(90, 89, 102, 0.7);
+}
+
+#input-container {
+  border-radius: 1.5em;
+  border: 2px solid rgb(128, 146, 223);
+  width: 40em;
+  margin: auto;
+  margin-bottom: 2em;
+}
+
+#add-task {
+  width: 40em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border: 0;
+}
+
+#plus-icon {
+  color: rgb(71, 98, 219);
+  font-size: 1.5em;
+  position: relative;
+  /* Adjust these values accordingly */
+  top: 5px;
+  left: 5px;
+  cursor: pointer;
+}
+ul {
+  width: 100%;
+}
+ul li {
+  list-style-type: none;
+  margin-right: 1.5em;
+  font-size: 1.5em;
+  background-color: rgb(220, 224, 241);
+  text-align: left;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+  color: rgb(7, 7, 160);
+  margin-bottom: 0.5em;
+  word-wrap: break-word;
+}
+
+ul li.checked {
+  text-decoration: line-through;
+  background-color: rgb(196, 197, 204);
+}
+
+ul li.checked #check-icon {
+  display: inline-block;
+}
+ul li.checked #trash {
+  display: inline-block;
+}
+#check-icon {
+  margin-right: 0.5em;
+  display: none;
+}
+
+#trash {
+  position: absolute;
+  right: 26%;
+  display: none;
+  cursor: pointer;
+}
+
+ul li.removed {
+  display: none;
+}
