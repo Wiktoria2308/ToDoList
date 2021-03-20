@@ -1,5 +1,6 @@
 body {
-  padding-bottom: 5em;
+  padding-bottom: 10em;
+  overflow-x: hidden;
 }
 
 html {
@@ -7,6 +8,7 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
 }
 
 * {
@@ -40,8 +42,6 @@ html {
   padding-bottom: 0.7em;
   padding-left: 2em;
   margin: auto;
-
-  
 }
 #task-container {
   width: 40em;
@@ -64,7 +64,7 @@ ul li {
   padding-top: 0.7em;
   padding-bottom: 0.7em;
   color: rgb(160, 160, 229);
-  border-bottom: 1px solid rgb(198, 208, 243);
+  border-bottom: 1px solid rgb(128, 146, 223);
   border-right: 1px solid rgb(128, 146, 223);
   border-left: 1px solid rgb(128, 146, 223);
   word-wrap: break-word;
@@ -139,4 +139,150 @@ input[type=text] {
   font-size: 1.4em;
   color: rgb(160, 160, 229);
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+@media screen and (min-width: 812px) and (max-width: 812px){
+  #cross {
+    right: 12%;
+  }
+  #task-container {
+    width: 92%;
+  }
+  #main-container {
+    width: 90%;
+    
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1025px){
+  #cross {
+    right: 13%;
+  }
+  #task-container {
+    width: 90%;
+  }
+  #main-container {
+    width: 90%;
+    
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  #cross {
+    right: 13%;
+  }
+}
+@media screen and (min-width: 668px) and (max-width: 768px) {
+  #main-container {
+    max-width: 95%;
+    padding-top: 2.5em;
+  }
+  #input-container {
+    padding-left: 1em;
+  }
+  #task-container {
+    width: 90%;
+  }
+
+  #cross {
+    right: 11%;
+  }
+  #title {
+    font-size: 4em;
+  }
+  ul li {
+    font-size: 1.4em;
+  }
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 1em;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    font-size: 1em;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    font-size: 1em;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    font-size: 1em;
+  }
+  input[type=text] {
+    font-size: 1.4em;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 667px) {
+  #main-container {
+    max-width: 100%;
+    padding-top: 1.9em;
+  }
+  #input-container {
+    padding-left: 0.5em;
+  }
+  #task-container {
+    width: 90%;
+  }
+
+  #cross {
+    right: 13%;
+  }
+  #title {
+    font-size: 3em;
+  }
+  ul li {
+    font-size: 1.2em;
+  }
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 0.9em;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    font-size: 0.9em;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    font-size: 0.9em;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    font-size: 0.9em;
+  }
+  input[type=text] {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #main-container {
+    max-width: 100%;
+    padding-top: 1.9em;
+    min-height: 30em;
+    border-radius: 0;
+  }
+  #input-container {
+    padding-left: 0.5em;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+  }
+  #task-container {
+    width: 90%;
+    
+  }
+  #cross {
+    right: 13%;
+  }
+  #title {
+    font-size: 3em;
+  }
+  ul li {
+    font-size: 1.1em;
+  }
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 0.7em;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    font-size: 0.7em;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    font-size: 0.7em;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    font-size: 0.7em;
+  }
+  input[type=text] {
+    font-size: 1.1em;
+  }
 }
