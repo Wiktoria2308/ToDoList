@@ -139,7 +139,7 @@ ul li.removed {
 input[type='text'] {
   font-weight: 200;
   font-size: 1.4em;
-  color: rgb(160, 160, 229);
+  color: rgb(86, 86, 230);
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 @media screen and (min-width: 812px) and (max-width: 812px) {
