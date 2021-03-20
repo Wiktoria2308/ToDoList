@@ -35,7 +35,7 @@ html {
 }
 
 #input-container {
-  border: 1px solid rgb(128, 146, 223);
+  border: 2px solid rgb(128, 146, 223);
   width: inherit;
   padding-top: 0.7em;
   padding-bottom: 0.7em;
