@@ -1,51 +1,37 @@
-function addTask() {
-  const listItem = document.createElement('li');
-  const inputValue = document.getElementById('add-task').value;
-  const icon = `<i class="fas fa-check" id="check-icon"></i>`;
-  const trashCan = `<i class="fas fa-trash-alt" id="trash" onclick="remove(this)"></i>`;
-  listItem.innerHTML = icon;
-  listItem.innerHTML += inputValue;
-  listItem.innerHTML += trashCan;
-
-  if (inputValue === '') {
-    alert('You must write what you want to do!');
-  } else {
-    document.getElementById('task-list').appendChild(listItem);
-  }
-  document.getElementById('add-task').value = '';
-}
-
 
 //add task on enter
-document.getElementById('add-task').addEventListener('keyup', function (e) {
+document.getElementById('input-container').addEventListener('keyup', function (e) {
   if (e.code === 'Enter') {
     const listItem = document.createElement('li');
-    const inputValue = document.getElementById('add-task').value;
-    const icon = `<i class="fas fa-check" id="check-icon"></i>`;
-    const trashCan = `<i class="fas fa-trash-alt" id="trash" onclick="remove(this)"></i>`;
-    listItem.innerHTML = icon;
+    const inputValue = document.getElementById('input-container').value;
+    const checkbox = `<i class="far fa-check-circle" id="checkbox" onclick="done(this)"></i>`;
+    const circle = `<i class="far fa-circle" id="circle" onclick="done(this)"></i>`;
+    const cross = `<i class="fas fa-times" id="cross" onclick="remove(this)"></i>`;
+    listItem.innerHTML = checkbox;
+    listItem.innerHTML += circle;
     listItem.innerHTML += inputValue;
-    listItem.innerHTML += trashCan;
+    listItem.innerHTML += cross;
 
     if (inputValue === '') {
       alert('You must write what you want to do!');
     } else {
       document.getElementById('task-list').appendChild(listItem);
     }
-    document.getElementById('add-task').value = '';
+    document.getElementById('input-container').value = '';
   }
 });
 
-document.onclick = function (e) {
-  if (e.target.tagName == 'LI') {
-    e.target.classList.toggle('checked');
-  }
-};
+  
+
+
 
 function remove(link) {
   link.parentNode.parentNode.removeChild(link.parentNode);
 }
 
+function done(link) {
+  link.parentNode.classList.toggle('checked');
+}
 
 
 
