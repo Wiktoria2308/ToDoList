@@ -109,28 +109,28 @@ ul li.removed {
 ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
   font-weight: 100;
-  color: rgb(185, 183, 183);
+  color: rgb(95, 94, 94);
   font-size: 1em;
   font-style: italic;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 ::-moz-placeholder {
   /* Firefox 19+ */
-  color: rgb(185, 183, 183);
+  color: rgb(95, 94, 94);
   font-size: 1em;
   font-style: italic;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 :-ms-input-placeholder {
   /* IE 10+ */
-  color: rgb(185, 183, 183);
+  color: rgb(95, 94, 94);
   font-size: 1em;
   font-style: italic;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 :-moz-placeholder {
   /* Firefox 18- */
-  color: rgb(185, 183, 183);
+  color: rgb(95, 94, 94);
   font-size: 1em;
   font-style: italic;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -203,22 +203,22 @@ input[type='text'] {
   ::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
     font-size: 1em;
-    color: rgb(141, 139, 139);
+  
   }
   ::-moz-placeholder {
     /* Firefox 19+ */
     font-size: 1em;
-    color: rgb(141, 139, 139);
+    
   }
   :-ms-input-placeholder {
     /* IE 10+ */
     font-size: 1em;
-    color: rgb(141, 139, 139);
+    
   }
   :-moz-placeholder {
     /* Firefox 18- */
     font-size: 1em;
-    color: rgb(141, 139, 139);
+    
   }
   input[type='text'] {
     font-size: 1.4em;
@@ -251,22 +251,22 @@ input[type='text'] {
   ::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
     font-size: 0.9em;
-    color: rgb(141, 139, 139);
+   
   }
   ::-moz-placeholder {
     /* Firefox 19+ */
     font-size: 0.9em;
-    color: rgb(141, 139, 139);
+   
   }
   :-ms-input-placeholder {
     /* IE 10+ */
     font-size: 0.9em;
-    color: rgb(141, 139, 139);
+    
   }
   :-moz-placeholder {
     /* Firefox 18- */
     font-size: 0.9em;
-    color: rgb(141, 139, 139);
+   
   }
   input[type='text'] {
     font-size: 1.2em;
@@ -302,22 +302,22 @@ input[type='text'] {
   ::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
     font-size: 0.7em;
-    color: rgb(141, 139, 139);
+    
   }
   ::-moz-placeholder {
     /* Firefox 19+ */
     font-size: 0.7em;
-    color: rgb(141, 139, 139);
+   
   }
   :-ms-input-placeholder {
     /* IE 10+ */
     font-size: 0.7em;
-    color: rgb(141, 139, 139);
+    
   }
   :-moz-placeholder {
     /* Firefox 18- */
     font-size: 0.7em;
-    color: rgb(141, 139, 139);
+    
   }
   input[type='text'] {
     font-size: 1.1em;
