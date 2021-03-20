@@ -52,7 +52,7 @@ ul {
   margin: auto;
 }
 ul li {
-  font-weight: 200;
+  font-weight: 300;
   list-style-type: none;
   margin: auto;
   font-size: 1.4em;
@@ -153,7 +153,7 @@ input[type='text'] {
     width: 90%;
   }
   input[type='text'] {
-    font-weight: 500;
+    font-weight: 400;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1025px) {
@@ -165,6 +165,9 @@ input[type='text'] {
   }
   #main-container {
     width: 90%;
+  }
+  ul li {
+    font-weight: 400;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1023px) {
@@ -195,25 +198,31 @@ input[type='text'] {
   }
   ul li {
     font-size: 1.4em;
+    font-weight: 400;
   }
   ::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
     font-size: 1em;
+    color: rgb(141, 139, 139);
   }
   ::-moz-placeholder {
     /* Firefox 19+ */
     font-size: 1em;
+    color: rgb(141, 139, 139);
   }
   :-ms-input-placeholder {
     /* IE 10+ */
     font-size: 1em;
+    color: rgb(141, 139, 139);
   }
   :-moz-placeholder {
     /* Firefox 18- */
     font-size: 1em;
+    color: rgb(141, 139, 139);
   }
   input[type='text'] {
     font-size: 1.4em;
+    font-weight: 400;
   }
 }
 
@@ -242,26 +251,26 @@ input[type='text'] {
   ::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
     font-size: 0.9em;
-    color: rgb(153, 150, 150);
+    color: rgb(141, 139, 139);
   }
   ::-moz-placeholder {
     /* Firefox 19+ */
     font-size: 0.9em;
-    color: rgb(153, 150, 150);
+    color: rgb(141, 139, 139);
   }
   :-ms-input-placeholder {
     /* IE 10+ */
     font-size: 0.9em;
-    color: rgb(153, 150, 150);
+    color: rgb(141, 139, 139);
   }
   :-moz-placeholder {
     /* Firefox 18- */
     font-size: 0.9em;
-    color: rgb(153, 150, 150);
+    color: rgb(141, 139, 139);
   }
   input[type='text'] {
     font-size: 1.2em;
-    font-weight: 500;
+    font-weight: 400;
   }
 }
 
@@ -288,24 +297,30 @@ input[type='text'] {
   }
   ul li {
     font-size: 1.1em;
+    font-weight: 400;
   }
   ::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
     font-size: 0.7em;
+    color: rgb(141, 139, 139);
   }
   ::-moz-placeholder {
     /* Firefox 19+ */
     font-size: 0.7em;
+    color: rgb(141, 139, 139);
   }
   :-ms-input-placeholder {
     /* IE 10+ */
     font-size: 0.7em;
+    color: rgb(141, 139, 139);
   }
   :-moz-placeholder {
     /* Firefox 18- */
     font-size: 0.7em;
+    color: rgb(141, 139, 139);
   }
   input[type='text'] {
     font-size: 1.1em;
+    font-weight: 400;
   }
 }
