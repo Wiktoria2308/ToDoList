@@ -1,7 +1,7 @@
 
-//add task on enter
-document.getElementById('input-container').addEventListener('keyup', function (e) {
-  if (e.code === 'Enter') {
+//add task on enter 
+document.getElementById('input-container').addEventListener('keyup', (event) => {
+  if (event.keyCode === 13 || event.code === 'Enter') {
     const listItem = document.createElement('li');
     const inputValue = document.getElementById('input-container').value;
     const checkbox = `<i class="far fa-check-circle" id="checkbox" onclick="done(this)"></i>`;
@@ -20,8 +20,6 @@ document.getElementById('input-container').addEventListener('keyup', function (e
     document.getElementById('input-container').value = '';
   }
 });
-
-  
 
 
 
