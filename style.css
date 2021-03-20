@@ -34,7 +34,6 @@ html {
   box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%), 0 25px 50px 0 rgb(0 0 0 / 10%);
 }
 
-
 #input-container {
   border: 1px solid rgb(128, 146, 223);
   width: inherit;
@@ -54,7 +53,7 @@ ul {
 }
 ul li {
   font-weight: 200;
-  list-style-type:none;
+  list-style-type: none;
   margin: auto;
   font-size: 1.4em;
   background-color: rgb(246, 246, 248);
@@ -73,7 +72,6 @@ ul li {
 ul li.checked {
   color: rgb(171, 171, 231);
   text-decoration: line-through;
-
 }
 ul li.checked #checkbox {
   display: inline-block;
@@ -108,39 +106,43 @@ ul li.removed {
   display: none;
 }
 
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
   font-weight: 100;
   color: rgb(185, 183, 183);
   font-size: 1em;
- font-style: italic;
- font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-::-moz-placeholder { /* Firefox 19+ */
+::-moz-placeholder {
+  /* Firefox 19+ */
   color: rgb(185, 183, 183);
   font-size: 1em;
   font-style: italic;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-:-ms-input-placeholder { /* IE 10+ */
+:-ms-input-placeholder {
+  /* IE 10+ */
   color: rgb(185, 183, 183);
   font-size: 1em;
   font-style: italic;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-:-moz-placeholder { /* Firefox 18- */
+:-moz-placeholder {
+  /* Firefox 18- */
   color: rgb(185, 183, 183);
   font-size: 1em;
   font-style: italic;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-input[type=text] {
+input[type='text'] {
   font-weight: 200;
   font-size: 1.4em;
   color: rgb(160, 160, 229);
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-@media screen and (min-width: 812px) and (max-width: 812px){
+@media screen and (min-width: 812px) and (max-width: 812px) {
   #cross {
     right: 12%;
   }
@@ -149,10 +151,12 @@ input[type=text] {
   }
   #main-container {
     width: 90%;
-    
+  }
+  input[type='text'] {
+    font-weight: 500;
   }
 }
-@media screen and (min-width: 1024px) and (max-width: 1025px){
+@media screen and (min-width: 1024px) and (max-width: 1025px) {
   #cross {
     right: 13%;
   }
@@ -161,12 +165,14 @@ input[type=text] {
   }
   #main-container {
     width: 90%;
-    
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1023px) {
   #cross {
     right: 13%;
+  }
+  ul li {
+    font-weight: 400;
   }
 }
 @media screen and (min-width: 668px) and (max-width: 768px) {
@@ -190,19 +196,23 @@ input[type=text] {
   ul li {
     font-size: 1.4em;
   }
-  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  ::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
     font-size: 1em;
   }
-  ::-moz-placeholder { /* Firefox 19+ */
+  ::-moz-placeholder {
+    /* Firefox 19+ */
     font-size: 1em;
   }
-  :-ms-input-placeholder { /* IE 10+ */
+  :-ms-input-placeholder {
+    /* IE 10+ */
     font-size: 1em;
   }
-  :-moz-placeholder { /* Firefox 18- */
+  :-moz-placeholder {
+    /* Firefox 18- */
     font-size: 1em;
   }
-  input[type=text] {
+  input[type='text'] {
     font-size: 1.4em;
   }
 }
@@ -227,21 +237,31 @@ input[type=text] {
   }
   ul li {
     font-size: 1.2em;
+    font-weight: 400;
   }
-  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  ::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
     font-size: 0.9em;
+    color: rgb(153, 150, 150);
   }
-  ::-moz-placeholder { /* Firefox 19+ */
+  ::-moz-placeholder {
+    /* Firefox 19+ */
     font-size: 0.9em;
+    color: rgb(153, 150, 150);
   }
-  :-ms-input-placeholder { /* IE 10+ */
+  :-ms-input-placeholder {
+    /* IE 10+ */
     font-size: 0.9em;
+    color: rgb(153, 150, 150);
   }
-  :-moz-placeholder { /* Firefox 18- */
+  :-moz-placeholder {
+    /* Firefox 18- */
     font-size: 0.9em;
+    color: rgb(153, 150, 150);
   }
-  input[type=text] {
+  input[type='text'] {
     font-size: 1.2em;
+    font-weight: 500;
   }
 }
 
@@ -259,7 +279,6 @@ input[type=text] {
   }
   #task-container {
     width: 90%;
-    
   }
   #cross {
     right: 13%;
@@ -270,19 +289,23 @@ input[type=text] {
   ul li {
     font-size: 1.1em;
   }
-  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  ::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
     font-size: 0.7em;
   }
-  ::-moz-placeholder { /* Firefox 19+ */
+  ::-moz-placeholder {
+    /* Firefox 19+ */
     font-size: 0.7em;
   }
-  :-ms-input-placeholder { /* IE 10+ */
+  :-ms-input-placeholder {
+    /* IE 10+ */
     font-size: 0.7em;
   }
-  :-moz-placeholder { /* Firefox 18- */
+  :-moz-placeholder {
+    /* Firefox 18- */
     font-size: 0.7em;
   }
-  input[type=text] {
+  input[type='text'] {
     font-size: 1.1em;
   }
 }
