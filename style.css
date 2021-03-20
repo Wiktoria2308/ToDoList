@@ -18,7 +18,7 @@ html {
   text-align: center;
   font-size: 5em;
   font-weight: 300;
-  color: rgb(160, 160, 229);
+  color: rgb(109, 109, 230);
 }
 
 #main-container {
@@ -62,7 +62,7 @@ ul li {
   padding-right: 1em;
   padding-top: 0.7em;
   padding-bottom: 0.7em;
-  color: rgb(160, 160, 229);
+  color: rgb(86, 86, 230);
   border-bottom: 1px solid rgb(128, 146, 223);
   border-right: 1px solid rgb(128, 146, 223);
   border-left: 1px solid rgb(128, 146, 223);
