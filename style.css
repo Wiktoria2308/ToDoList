@@ -52,6 +52,7 @@ ul {
   margin: auto;
 }
 ul li {
+  position:relative;
   font-weight: 300;
   list-style-type: none;
   margin: auto;
@@ -86,12 +87,13 @@ ul li.checked #cross {
   color: rgb(195, 195, 236);
   margin-right: 0.5em;
   display: inline-block;
+  
 }
 
 #cross {
-  color: rgb(195, 195, 236);
   position: absolute;
-  right: 29%;
+  right: 18px;
+  color: rgb(195, 195, 236);
   cursor: pointer;
   margin-top: 0.2em;
 }
@@ -143,9 +145,7 @@ input[type='text'] {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 @media screen and (min-width: 812px) and (max-width: 812px) {
-  #cross {
-    right: 12%;
-  }
+ 
   #task-container {
     width: 92%;
   }
@@ -157,9 +157,7 @@ input[type='text'] {
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1025px) {
-  #cross {
-    right: 13%;
-  }
+
   #task-container {
     width: 90%;
   }
@@ -171,9 +169,7 @@ input[type='text'] {
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1023px) {
-  #cross {
-    right: 13%;
-  }
+  
   ul li {
     font-weight: 400;
   }
@@ -190,9 +186,6 @@ input[type='text'] {
     width: 90%;
   }
 
-  #cross {
-    right: 11%;
-  }
   #title {
     font-size: 4em;
   }
@@ -238,9 +231,7 @@ input[type='text'] {
     width: 90%;
   }
 
-  #cross {
-    right: 13%;
-  }
+
   #title {
     font-size: 3em;
   }
@@ -289,9 +280,7 @@ input[type='text'] {
   #task-container {
     width: 90%;
   }
-  #cross {
-    right: 13%;
-  }
+ 
   #title {
     font-size: 3em;
   }
@@ -302,7 +291,7 @@ input[type='text'] {
   ::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
     font-size: 0.7em;
-    
+  
   }
   ::-moz-placeholder {
     /* Firefox 19+ */
