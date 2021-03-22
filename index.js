@@ -22,20 +22,11 @@ document.getElementById('input-container').addEventListener('keyup', (event) => 
       let newData = ref.push(data);
       listItem.id = newData.key;
       document.getElementById('task-list').appendChild(listItem);
+     
     }
     document.getElementById('input-container').value = '';
   }
 });
-
-// function addId() {  //zmienic
-//   let allElements = document.querySelectorAll('.todos');
-
-//   for (let i = 0; i < allElements.length; i++) {
-//     if (allElements[i].id !== 'list' + i) {
-//       allElements[i].id = 'list' + i;
-//     }
-//   }
-// }
 
 function loadData() {
   // this remove all added data on page which wasn't submited afetr loading a page and then load data from database
@@ -63,7 +54,9 @@ function addTaskOnLoad(idd, todoo, classs) {
   listItem.innerHTML += todoo;
   listItem.innerHTML += cross;
   document.getElementById('task-list').appendChild(listItem);
+  
 }
+
 
 function submit() {
   let allElements = document.querySelectorAll('.todos');

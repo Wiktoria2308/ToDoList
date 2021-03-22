@@ -43,16 +43,17 @@ html {
   margin: auto;
 }
 #button {
-  border-bottom: 1px solid rgb(128, 146, 223);
-  border-right: 1px solid rgb(128, 146, 223);
-  border-left: 1px solid rgb(128, 146, 223);
+  border-bottom: 2px solid rgb(128, 146, 223);
+  border-right: 2px solid rgb(128, 146, 223);
+  border-left: 2px solid rgb(128, 146, 223);
   border-top: 0;
   width: inherit;
   padding-top: 0.7em;
   padding-bottom: 0.7em;
   color: rgb(86, 86, 230);
+
   margin: auto;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.4em;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -68,7 +69,7 @@ ul {
 }
 ul li {
   position: relative;
-  font-weight: 300;
+  font-weight: 400;
   list-style-type: none;
   margin: auto;
   font-size: 1.4em;
@@ -79,9 +80,9 @@ ul li {
   padding-top: 0.7em;
   padding-bottom: 0.7em;
   color: rgb(86, 86, 230);
-  border-bottom: 1px solid rgb(128, 146, 223);
-  border-right: 1px solid rgb(128, 146, 223);
-  border-left: 1px solid rgb(128, 146, 223);
+  border-bottom: 2px solid rgb(128, 146, 223);
+  border-right: 2px solid rgb(128, 146, 223);
+  border-left: 2px solid rgb(128, 146, 223);
   word-wrap: break-word;
 }
 
