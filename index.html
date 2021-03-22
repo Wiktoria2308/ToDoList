@@ -13,7 +13,7 @@
         <script src="https://kit.fontawesome.com/3318035e44.js"></script>
     </head>
 
-    <body>
+    <body onload="loadData()">
 <div>
   <h1 id="title">Things to do </h1>
 </div>
@@ -23,10 +23,18 @@
     <input type="text" id="input-container" placeholder="What needs to be done?">
 
   <ul id="task-list">
-    
+
   </ul>
+  <button id="button" onclick="submit()">Save</button>
 </div>
 </div>
-      <script src="index.js"></script>
+      <script defer src="index.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+
+      <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-analytics.js"></script>
+      
+      <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
+
+
     </body>
     </html>

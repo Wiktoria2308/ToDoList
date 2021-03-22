@@ -42,6 +42,21 @@ html {
   padding-left: 2em;
   margin: auto;
 }
+#button {
+  border-bottom: 1px solid rgb(128, 146, 223);
+  border-right: 1px solid rgb(128, 146, 223);
+  border-left: 1px solid rgb(128, 146, 223);
+  border-top: 0;
+  width: inherit;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  color: rgb(86, 86, 230);
+  margin: auto;
+  font-weight: 300;
+  font-size: 1.4em;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 #task-container {
   width: 40em;
 }
@@ -52,7 +67,7 @@ ul {
   margin: auto;
 }
 ul li {
-  position:relative;
+  position: relative;
   font-weight: 300;
   list-style-type: none;
   margin: auto;
@@ -87,7 +102,6 @@ ul li.checked #cross {
   color: rgb(195, 195, 236);
   margin-right: 0.5em;
   display: inline-block;
-  
 }
 
 #cross {
@@ -145,7 +159,6 @@ input[type='text'] {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 @media screen and (min-width: 812px) and (max-width: 812px) {
- 
   #task-container {
     width: 92%;
   }
@@ -157,7 +170,6 @@ input[type='text'] {
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1025px) {
-
   #task-container {
     width: 90%;
   }
@@ -169,7 +181,6 @@ input[type='text'] {
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1023px) {
-  
   ul li {
     font-weight: 400;
   }
@@ -196,22 +207,18 @@ input[type='text'] {
   ::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
     font-size: 1em;
-  
   }
   ::-moz-placeholder {
     /* Firefox 19+ */
     font-size: 1em;
-    
   }
   :-ms-input-placeholder {
     /* IE 10+ */
     font-size: 1em;
-    
   }
   :-moz-placeholder {
     /* Firefox 18- */
     font-size: 1em;
-    
   }
   input[type='text'] {
     font-size: 1.4em;
@@ -231,7 +238,6 @@ input[type='text'] {
     width: 90%;
   }
 
-
   #title {
     font-size: 3em;
   }
@@ -242,22 +248,18 @@ input[type='text'] {
   ::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
     font-size: 0.9em;
-   
   }
   ::-moz-placeholder {
     /* Firefox 19+ */
     font-size: 0.9em;
-   
   }
   :-ms-input-placeholder {
     /* IE 10+ */
     font-size: 0.9em;
-    
   }
   :-moz-placeholder {
     /* Firefox 18- */
     font-size: 0.9em;
-   
   }
   input[type='text'] {
     font-size: 1.2em;
@@ -280,7 +282,7 @@ input[type='text'] {
   #task-container {
     width: 90%;
   }
- 
+
   #title {
     font-size: 3em;
   }
@@ -291,22 +293,18 @@ input[type='text'] {
   ::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
     font-size: 0.7em;
-  
   }
   ::-moz-placeholder {
     /* Firefox 19+ */
     font-size: 0.7em;
-   
   }
   :-ms-input-placeholder {
     /* IE 10+ */
     font-size: 0.7em;
-    
   }
   :-moz-placeholder {
     /* Firefox 18- */
     font-size: 0.7em;
-    
   }
   input[type='text'] {
     font-size: 1.1em;
